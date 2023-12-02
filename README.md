@@ -20,3 +20,9 @@ dependencies are specified in the pyproject.toml and the exact versions are in t
 
 ```poetry install```
 
+
+##Initialization
+
+To run the backend in development mode, run the following command:
+
+```uvicorn src/main:app --reload```
