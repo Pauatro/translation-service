@@ -26,3 +26,8 @@ dependencies are specified in the pyproject.toml and the exact versions are in t
 To run the backend in development mode, run the following command:
 
 ```uvicorn src/main:app --reload```
+
+
+## Documentation
+
+Once run locally, documentation is automatically generated [here](http://127.0.0.1:8000/docs)
