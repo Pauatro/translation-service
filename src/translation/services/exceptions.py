@@ -1,0 +1,2 @@
+class TextNotAllowedException(Exception):
+    pass
