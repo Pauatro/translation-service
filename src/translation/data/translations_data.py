@@ -6,5 +6,5 @@ greetings_translations_dict: dict = {
     AvailableLanguages.spanish.value: "Hola. ¿Cómo estás?",
     AvailableLanguages.french.value: "Bonjour. Comment allez-vous ?",
     AvailableLanguages.german.value: "Hallo. Wie geht es Ihnen?",
-    AvailableLanguages.italian.value: "Ciao. Come sta?",    
+    AvailableLanguages.italian.value: "Ciao. Come sta?",
 }
