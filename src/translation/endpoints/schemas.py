@@ -14,3 +14,6 @@ available_languages_list = [l.value for l in AvailableLanguages]
 class TranslationRequestSchema(BaseModel):
     language: AvailableLanguages
     text: str
+
+class JeringozaTranslationRequestSchema(BaseModel):
+    text: str
