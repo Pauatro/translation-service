@@ -27,7 +27,8 @@ To run the backend in development mode, run the following command inside the src
 
 ```uvicorn main:app --reload```
 
+The app will run on port 8000.
 
 ## Documentation
 
-Once run locally, documentation is automatically generated [here](http://127.0.0.1:8000/docs)
+Once run locally, API documentation is automatically generated [here](http://localhost:8000/docs)
