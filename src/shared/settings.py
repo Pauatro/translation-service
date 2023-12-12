@@ -1,11 +1,10 @@
 from pydantic_settings import BaseSettings
-from typing import List, AnyHttpUrl
+from typing import List
 
 
 class Settings(BaseSettings):
     API_V1_STR: str = "/api/v1"
-    BACKEND_CORS_ORIGINS: List[AnyHttpUrl] = [
-        "http://localhost:3000",
-        "http://localhost:8001",  # type: ignore
-        "https://fastapi-recipe-app.herokuapp.com",
+    BACKEND_CORS_ORIGINS: List[str] = [
+        "http://localhost:5173",
+        "https://translation-service-app.herokuapp.com",
     ]

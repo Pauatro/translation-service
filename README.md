@@ -6,7 +6,7 @@ This README belongs to the backend project.
 
 ## Environment
 
-I managed the local environment, dependencies and versions using [Poetry](https://python-poetry.org/docs/) and [Pyenv](https://github.com/pyenv/pyenv).
+I managed the local environment, dependencies and versions using [Poetry](https://python-poetry.org/docs/).
 
 if you don't have poetry installed, you'll first need to install pipx if you don't have it:
 
@@ -23,11 +23,12 @@ dependencies are specified in the pyproject.toml and the exact versions are in t
 
 ## Initialization
 
-To run the backend in development mode, run the following command:
+To run the backend in development mode, run the following command inside the src folder:
 
-```uvicorn src/main:app --reload```
+```uvicorn main:app --reload```
 
+The app will run on port 8000.
 
 ## Documentation
 
-Once run locally, documentation is automatically generated [here](http://127.0.0.1:8000/docs)
+Once run locally, API documentation is automatically generated [here](http://localhost:8000/docs)
