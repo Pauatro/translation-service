@@ -32,3 +32,7 @@ The app will run on port 8000.
 ## Documentation
 
 Once run locally, API documentation is automatically generated [here](http://localhost:8000/docs)
+
+## Deployment
+
+The app is automatically deployed to heroku when there's a push to the main branch.
