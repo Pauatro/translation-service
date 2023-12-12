@@ -14,10 +14,11 @@ from fastapi.middleware.cors import CORSMiddleware
 from shared.settings import Settings
 
 app = FastAPI()
+app_settings = Settings()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=Settings().BACKEND_CORS_ORIGINS,
+    allow_origins=app_settings.BACKEND_CORS_ORIGINS,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],

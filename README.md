@@ -6,7 +6,7 @@ This README belongs to the backend project.
 
 ## Environment
 
-I managed the local environment, dependencies and versions using [Poetry](https://python-poetry.org/docs/) and [Pyenv](https://github.com/pyenv/pyenv).
+I managed the local environment, dependencies and versions using [Poetry](https://python-poetry.org/docs/).
 
 if you don't have poetry installed, you'll first need to install pipx if you don't have it:
 
