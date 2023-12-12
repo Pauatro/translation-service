@@ -35,4 +35,4 @@ Once run locally, API documentation is automatically generated [here](http://loc
 
 ## Deployment
 
-The app is automatically deployed to heroku when there's a push to the main branch.
+The app is automatically deployed to heroku when there's a push to the main branch or a PR is merged to main.
